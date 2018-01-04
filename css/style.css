@@ -1,3 +1,45 @@
-div {
-	margin-top: 10px;
+body {
+	background-image: url(../images/comicBookBck.jpg);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1{
+	font-size: 85px;
+}
+
+#timeRemaining{
+	font-size: 40px;
+	color: red;
+	font-weight: bold;
+}
+
+form {
+	background: rgba(255,255,255,0.9);
+	text-align: justify;
+	width: 70%;
+	padding: 3%;
+	margin-left: 14%;
+	margin-right: 14%;
+	margin-bottom: 5%;
+}
+
+form div {
+	margin-top: 5%;
+}
+
+input {
+	margin-top: 1.5%;
+}
+
+#submitBtn {
+	background-color: orange;
+	width: 12%;
+	height: auto;
+	margin-left: 40%;
+	font-size: 23px;
+	font-weight: bolder;
+	border: none;
+	border-radius: 10px;
 }
